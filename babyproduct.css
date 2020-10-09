@@ -1,0 +1,23 @@
+h1
+{
+  font-family: cursive;
+  color: lightPink;
+
+  text-align: center;
+}
+
+body
+{
+  background-color: rosyBrown;
+}
+
+p
+{
+  color: indigo;
+}
+
+a
+{
+  color: blue;
+  font-style: italic;
+}
