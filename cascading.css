@@ -9,11 +9,26 @@ h1,h2,h3,h4,h5,h6{
 p{
     text-align: center;
 }
-ul  {
-  padding-left: 0;
-}
+
 ul,li {
    display: inline-block;
-   list-style-position: inside;
-
+   padding: 20px;
+}
+.animalimgs{
+  border: 4px solid gray;
+  height: 300px;
+  width: 400px;
+}
+#snakeimg{
+  border: 4px solid orange;
+  width: 400px;
+  height: 300px;
+}
+.bglightyellow{
+  background-color: lightyellow;
+}
+#color{
+  color: purple;
+  font-family: monospace;
+  font-size: 20px;
 }

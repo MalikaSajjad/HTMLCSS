@@ -1,0 +1,115 @@
+body{
+
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.div1{
+  background-color: seagreen;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 30px;
+}
+.div2{
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 350px;
+}
+.div3{
+  background-color: #6800b3;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 20px;
+  text-align: left;
+  font-family: Arial;
+  color: white;
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+
+}
+
+.div4{
+  position: absolute;
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+padding-left: 40px;
+padding-right: 40px;
+  left: 300px;
+  top: 290px;
+}
+.div5{
+  position: absolute;
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  right: 300px;
+  top: 290px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.div6{
+  position: absolute;
+  background-color: #989898;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  left: 300px;
+  top: 380px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+.div7{
+  position: absolute;
+  font-size: 20px;
+  background-color: #989898;
+
+  border-radius: 10px;
+
+  color: white;
+  right:300px;
+  top: 380px;
+  padding-left: 102px;
+  padding-right: 102px;
+}
+
+.div8{
+  position: absolute;
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 10px;
+  top: 480px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+.div9{
+  position: absolute;
+  font-size: 28px;
+  color: black;
+  top: 470px;
+  padding-left: 300px;
+}
+.div10{
+  position: absolute;
+  font-size: 18px;
+  background-color: green;
+  top: 490px;
+  right: 494px;
+
+  padding-left: 25px;
+  padding-right: 25px;
+
+  border-radius: 10px;
+}
