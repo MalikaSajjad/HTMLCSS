@@ -4,7 +4,7 @@ body{
   padding-right: 60px;
 }
 .div1{
-  background-color: seagreen;
+  background-color: #00CC99;
   color: white;
   font-size: 40px;
   font-family: sans-serif;
@@ -104,7 +104,7 @@ padding-right: 40px;
 .div10{
   position: absolute;
   font-size: 18px;
-  background-color: green;
+  background-color: #33CC33;
   top: 490px;
   right: 494px;
 
