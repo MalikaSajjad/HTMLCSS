@@ -96,20 +96,22 @@ padding-right: 40px;
 }
 .div9{
   position: absolute;
-  font-size: 28px;
+  font-size: 24px;
   color: black;
-  top: 470px;
+  top: 472px;
   padding-left: 300px;
 }
 .div10{
   position: absolute;
-  font-size: 18px;
+  font-size: 10px;
   background-color: #33CC33;
-  top: 490px;
-  right: 494px;
+  top: 493px;
+  right: 518px;
 
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 25px;
   padding-right: 25px;
-
+  font-family: cursive;
   border-radius: 10px;
 }
