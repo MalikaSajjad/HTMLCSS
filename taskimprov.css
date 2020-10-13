@@ -38,18 +38,37 @@ body{
 }
 
 .div4{
-  position: absolute;
+  position: relative;
   background-color: #989898;
   border-radius: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  height: 60px;
+  width: 300px;
+  padding: 3px;
+
+
+  text-align: center;
+/*  border-radius: 10px;
   font-size: 20px;
   color: white;
 padding-left: 40px;
 padding-right: 40px;
   left: 300px;
   top: 290px;
-}
+*/}
 .div5{
-  position: absolute;
+  position: relative;
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  float: right;
+  margin-top: 50px;
+  height: 60px;
+  width: 300px;
+  padding: 2px;
+float: right;
+  /*position: absolute;
   background-color: #989898;
   border-radius: 10px;
   font-size: 20px;
@@ -58,9 +77,19 @@ padding-right: 40px;
   top: 290px;
   padding-left: 40px;
   padding-right: 40px;
+*/
 }
 .div6{
-  position: absolute;
+  position: relative;
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  height: 60px;
+  width: 300px;
+  padding: 3px;
+
+  /*position: absolute;
   background-color: #989898;
   border-radius: 10px;
   color: white;
@@ -69,9 +98,18 @@ padding-right: 40px;
   top: 380px;
   padding-left: 27px;
   padding-right: 27px;
-}
+*/}
 .div7{
-  position: absolute;
+  position: relative;
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  height: 60px;
+  width: 300px;
+  padding: 3px;
+  float: right;
+/*  position: absolute;
   font-size: 20px;
   background-color: #989898;
 
@@ -82,10 +120,19 @@ padding-right: 40px;
   top: 380px;
   padding-left: 102px;
   padding-right: 102px;
-}
+*/}
 
 .div8{
-  position: absolute;
+  position: relative;
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  height: 60px;
+  width: 300px;
+  padding: 3px;
+
+/*  position: absolute;
   background-color: orange;
   font-size: 20px;
   border-radius: 10px;
@@ -93,7 +140,7 @@ padding-right: 40px;
   padding-left: 100px;
   padding-right: 100px;
 
-}
+*/}
 .div9{
   position: absolute;
   font-size: 24px;

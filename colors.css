@@ -6,7 +6,7 @@ h1
 }
 body
 {
-  background-color: lightblue;
+  background-color: #AB989B;
   border: 4px solid white;
 }
 
@@ -32,4 +32,20 @@ img
 table, th, tr, td
 {
   border: 3px solid green;
+  border-collapse: collapse;
+}
+th{
+  padding: 10px;
+  color: white;
+}
+th:hover{
+  background-color: #2E060C;
+}
+td{
+  background-color: #8A0015;
+  color: white;
+  padding: 10px;
+}
+td:hover{
+  background-color: #2E060C;
 }

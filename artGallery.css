@@ -1,0 +1,55 @@
+body{
+  background-color: #CBF49F;
+}
+h1{
+  text-align: center;
+  border: 8px solid navy;
+  border-radius: 10px;
+}
+.welcomemsg{
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #DC9D31;
+  padding-bottom: 20px;
+  padding-top: 2px;
+
+}
+
+.paintings{
+  margin: 30px;
+  border: 3px solid orange;
+}
+img{
+    width: 20%;
+    filter: grayscale(100%);
+}
+
+img:hover{
+  filter: contrast(100%);
+}
+#box{
+  background-color: lightblue;
+  position: relative;
+  left: 25px;
+  height: 200px;
+  width: 500px;
+}
+
+#descriptiontext{
+padding-top: 60px;
+
+}
+.copyright{
+  position: relative;
+  bottom: 10px;
+  background-color: yellow;
+  width: 500px;
+
+}
+
+.shop{
+  background-color: red;
+  position: fixed;
+  bottom: 10px;
+  right:  20px;
+}
