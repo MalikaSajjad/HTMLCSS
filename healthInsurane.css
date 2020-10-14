@@ -7,6 +7,9 @@
         vertical-align: baseline;
         background: transparent;
     }
+.bg{
+  padding-bottom:  600px;
+}
 
 .banner{
   height: 54px;
@@ -23,6 +26,7 @@
   }
 
 .logo {
+  padding-bottom: 05px;
     margin: 40px;
     margin-left: 100px;
 }
