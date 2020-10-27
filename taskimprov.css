@@ -1,51 +1,43 @@
 body{
-
+  background-color: black;
   padding-left: 60px;
   padding-right: 60px;
 }
 .div1{
   background-color: #00CC99;
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   font-family: sans-serif;
+  padding: 5px;
   text-align: center;
-  padding-top: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 30px;
+  
 }
 .div2{
   background-color: white;
   border-radius: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 40px;
-  padding-bottom: 350px;
+  margin: 50px;
+  padding: 10px;
+ 
 }
 .div3{
   background-color: #6800b3;
   border-radius: 10px;
-  padding-left: 15px;
   font-size: 20px;
-  text-align: left;
   font-family: Arial;
   color: white;
 
-  padding-top: 1px;
-  padding-bottom: 1px;
+
+  
 
 
 }
 
 .div4{
-  position: relative;
+  
   background-color: #989898;
   border-radius: 10px;
   font-size: 20px;
-  margin-top: 50px;
-  height: 60px;
-  width: 300px;
-  padding: 3px;
+ 
 
 
   text-align: center;
@@ -58,16 +50,11 @@ padding-right: 40px;
   top: 290px;
 */}
 .div5{
-  position: relative;
+  
   background-color: #989898;
   border-radius: 10px;
   font-size: 20px;
-  float: right;
-  margin-top: 50px;
-  height: 60px;
-  width: 300px;
-  padding: 2px;
-float: right;
+ 
   /*position: absolute;
   background-color: #989898;
   border-radius: 10px;
@@ -79,15 +66,17 @@ float: right;
   padding-right: 40px;
 */
 }
+
+.genclass{
+  display: inline-block;
+
+}
 .div6{
-  position: relative;
+  
   background-color: #989898;
   border-radius: 10px;
   font-size: 20px;
-  margin-top: 50px;
-  height: 60px;
-  width: 300px;
-  padding: 3px;
+  
 
   /*position: absolute;
   background-color: #989898;
@@ -100,15 +89,11 @@ float: right;
   padding-right: 27px;
 */}
 .div7{
-  position: relative;
+  
   background-color: #989898;
   border-radius: 10px;
   font-size: 20px;
-  margin-top: 50px;
-  height: 60px;
-  width: 300px;
-  padding: 3px;
-  float: right;
+  
 /*  position: absolute;
   font-size: 20px;
   background-color: #989898;
@@ -123,15 +108,11 @@ float: right;
 */}
 
 .div8{
-  position: relative;
-  background-color: #989898;
+ 
+  background-color: orange;
   border-radius: 10px;
   font-size: 20px;
-  margin-top: 50px;
-  height: 60px;
-  width: 300px;
-  padding: 3px;
-
+  
 /*  position: absolute;
   background-color: orange;
   font-size: 20px;
@@ -142,27 +123,16 @@ float: right;
 
 */}
 .div9{
-  position: absolute;
-  font-size: 24px;
+  
+  font-size: 1em;
   color: black;
-  top: 472px;
-  padding-left: 300px;
+  
+  
 }
 .div10{
-  word-wrap: normal;
-  position: absolute;
-  text-align: center;
+ 
+  
   font-size: 16px;
   background-color: #33CC33;
-  top: 493px;
-  right: 518px;
-  height: 35px;
-  width: 16px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 25px;
-  padding-right: 25px;
-  display: flex;
-  justify-content: center;
-  border-radius: 10px;
+ border-radius: 10px;
 }
