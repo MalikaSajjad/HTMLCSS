@@ -1,0 +1,180 @@
+@media (max-width: 500px){
+  
+
+}
+
+body{
+  background-color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.div1{
+  background-color: #00CC99;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding: 5px;
+  text-align: center;
+  
+}
+.div2{
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 150px;
+  margin-right: 165px;;
+  padding: 10px;
+ 
+}
+.div3{
+  background-color: #6800b3;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+
+  text-align: left;
+
+  padding: 1px;
+  padding-top: 4px;
+  
+  padding-left: 20px;
+  padding: 10px;
+  padding-top: 20px;
+  margin: 25px;
+  padding: 0.5em;
+
+
+}
+.genclass{
+    border: none;
+  display: inline-block;
+ 
+
+}
+.options{
+
+  padding: 1px 15px;
+  margin: 20px;
+  padding: 15px 35px;
+  
+}
+.div4{
+  
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+ 
+  padding: 15px 30px;
+
+  text-align: center;
+/*  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+padding-left: 40px;
+padding-right: 40px;
+  left: 300px;
+  top: 290px;
+*/}
+.div5{
+  
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px 35px;
+  /*position: absolute;
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  right: 300px;
+  top: 290px;
+  padding-left: 40px;
+  padding-right: 40px;
+*/
+}
+
+
+.div6{
+  
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px 20px;
+
+  /*position: absolute;
+  background-color: #989898;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  left: 300px;
+  top: 380px;
+  padding-left: 27px;
+  padding-right: 27px;
+*/}
+.div7{
+  
+  background-color: #989898;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px 95px;
+/*  position: absolute;
+  font-size: 20px;
+  background-color: #989898;
+
+  border-radius: 10px;
+
+  color: white;
+  right:300px;
+  top: 380px;
+  padding-left: 102px;
+  padding-right: 102px;
+*/}
+.genclass2{
+  display: inline-block;
+  align-items: left;
+  margin-left: -270px;
+  border: none;
+
+}
+.options2{
+  display: inline-block;
+  align-items: left;
+  margin-left: -200px;
+
+}
+.div8{
+ 
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px 100px;
+  margin: 20px auto;
+  
+/*  position: absolute;
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 10px;
+  top: 480px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+*/}
+.div9{
+  
+  font-size: 0.5em;;
+  color: black;
+  margin: 20px auto;
+  
+}
+.div10{
+  font-size: 0.4em;
+  background-color: #33CC33;
+  border-radius: 10px;
+  
+  padding: 0px 20px;
+  margin: 20px auto;
+}
+.btn-lg{
+    min-width: 43%;   
+ 
+}
