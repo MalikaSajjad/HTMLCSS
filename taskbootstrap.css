@@ -11,16 +11,17 @@ body{
 .div1{
   background-color: #00CC99;
   color: white;
-  font-size: 40px;
+  font-size: 65px;
   font-family: sans-serif;
   padding: 5px;
   text-align: center;
+  margin-top: 30px;
   
 }
 .div2{
   background-color: white;
   border-radius: 10px;
-  margin: 20px 150px;
+  margin: 20px 155px;
   margin-right: 165px;;
   padding: 10px;
  
@@ -33,21 +34,16 @@ body{
   color: white;
 
   text-align: left;
-
-  padding: 1px;
-  padding-top: 4px;
-  
-  padding-left: 20px;
-  padding: 10px;
-  padding-top: 20px;
   margin: 25px;
-  padding: 0.5em;
+  padding-top: 16px;
+  padding-bottom: 2px;
+  padding-left: 20px;
 
 
 }
 .genclass{
     border: none;
-  display: inline-block;
+
  
 
 }
@@ -62,7 +58,7 @@ body{
   
   background-color: #989898;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
  
   padding: 15px 30px;
 
@@ -79,7 +75,7 @@ padding-right: 40px;
   
   background-color: #989898;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px 35px;
   /*position: absolute;
   background-color: #989898;
@@ -98,7 +94,7 @@ padding-right: 40px;
   
   background-color: #989898;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px 20px;
 
   /*position: absolute;
@@ -115,7 +111,7 @@ padding-right: 40px;
   
   background-color: #989898;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px 95px;
 /*  position: absolute;
   font-size: 20px;
@@ -129,26 +125,38 @@ padding-right: 40px;
   padding-left: 102px;
   padding-right: 102px;
 */}
-.genclass2{
-  display: inline-block;
-  align-items: left;
-  margin-left: -270px;
-  border: none;
 
+.margin{
+
+  margin-top: -12px;
+}
+.margin-left{
+  margin-left: -2px       ;
+}
+
+
+.genclass2{
+  
+  display: inline-block;
+  border: none;
+  margin-left: -275px;
+  margin-top: -35px;
 }
 .options2{
   display: inline-block;
-  align-items: left;
-  margin-left: -200px;
+  
+  
 
 }
+
 .div8{
  
   background-color: orange;
   border-radius: 10px;
-  font-size: 20px;
-  padding: 15px 100px;
-  margin: 20px auto;
+  font-size: 18px;
+  padding: 15px 90px;
+  text-align: center;
+  
   
 /*  position: absolute;
   background-color: orange;
@@ -161,18 +169,17 @@ padding-right: 40px;
 */}
 .div9{
   
-  font-size: 0.5em;;
+  font-size: 0.3em;;
   color: black;
-  margin: 20px auto;
   
 }
 .div10{
   font-size: 0.4em;
   background-color: #33CC33;
   border-radius: 10px;
+  margin-top: -35px;
+ 
   
-  padding: 0px 20px;
-  margin: 20px auto;
 }
 .btn-lg{
     min-width: 43%;   
