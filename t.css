@@ -5,8 +5,8 @@
 
 body{
   background-color: black;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 .div1{
   background-color: #00CC99;
@@ -162,7 +162,7 @@ padding-right: 40px;
  
     width: 200px;
     height: 50px; 
-  
+    
   
 /*  position: absolute;
   background-color: orange;
@@ -191,11 +191,11 @@ padding-left: 20px;
   
 }
 .btn-lg{
-    width: 325px;
+    width: 315px;
     height: 60px;   
  
 }
 .btn{
-    margin: 12px;
+    margin: 10px;
     margin-bottom: 0px;
 }
