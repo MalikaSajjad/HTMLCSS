@@ -34,7 +34,7 @@ body{
   color: white;
 
   text-align: left;
-  margin: 25px;
+  margin: 20px;
   padding-top: 16px;
   padding-bottom: 2px;
   padding-left: 20px;
@@ -58,7 +58,7 @@ body{
   
   background-color: #989898;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 16px;
  
   padding: 15px 30px;
 
@@ -75,8 +75,8 @@ padding-right: 40px;
   
   background-color: #989898;
   border-radius: 10px;
-  font-size: 18px;
-  padding: 15px 35px;
+  font-size: 16px;
+  
   /*position: absolute;
   background-color: #989898;
   border-radius: 10px;
@@ -94,8 +94,8 @@ padding-right: 40px;
   
   background-color: #989898;
   border-radius: 10px;
-  font-size: 18px;
-  padding: 15px 20px;
+  font-size: 16px;
+  
 
   /*position: absolute;
   background-color: #989898;
@@ -111,8 +111,8 @@ padding-right: 40px;
   
   background-color: #989898;
   border-radius: 10px;
-  font-size: 18px;
-  padding: 15px 95px;
+  font-size: 16px;
+  
 /*  position: absolute;
   font-size: 20px;
   background-color: #989898;
@@ -146,12 +146,11 @@ padding-right: 40px;
  
   border: none;
   
-  margin-left: -270px;
+  
 
 }
 .options2{
-  display: inline-block;
-  align-items: left;
+  
   
 }
 
@@ -159,11 +158,10 @@ padding-right: 40px;
   border: none;
   background-color: orange;
   border-radius: 10px;
-  font-size: 18px;
-  padding: 15px 90px 0px;
-  margin: 0px auto;
-  padding: 15px 45px;
-  
+  font-size: 16px;
+ 
+    width: 200px;
+    height: 50px; 
   
   
 /*  position: absolute;
@@ -179,20 +177,25 @@ padding-right: 40px;
   
   font-size: 0.3em;;
   color: black;
-  margin: -35px auto;
+  
   
 }
 .div10{
-  font-size: 0.4em;
+  font-size: 0.3em;
   background-color: #33CC33;
   border-radius: 10px;
-  padding: 0px 20px 0px;
-  margin: 20px auto;
- 
-  
+padding-left: 20px; 
+ padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   
 }
 .btn-lg{
-    min-width: 43%;   
+    width: 325px;
+    height: 60px;   
  
+}
+.btn{
+    margin: 12px;
+    margin-bottom: 0px;
 }
