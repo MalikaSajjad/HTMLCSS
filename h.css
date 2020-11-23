@@ -35,3 +35,63 @@
     font-size: 2em ;
 
   }
+  .img-paddng{
+    padding: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+  }
+  .img-margin{
+      margin-right: 3%;
+  }
+
+  .centr-algn{
+      text-align: center;
+  }
+  .sizej{
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-right: 75px;
+      padding-left: 75px;
+      border-radius: 10px;
+  }
+
+  .text-box{
+    
+    border: 3px solid #42E1BD;
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .bgimgpad{
+    padding: 50px;
+    width: 100%;
+  }
+  .bglogopad{
+    padding-left: 50px;
+    
+  }
+  .btn-lg:disabled{
+    border-radius: 50px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(151, 218, 203);
+    border: none;
+  }
+  .btn-lg:hover{
+
+    background-color: #49D1B1;
+    border: none;
+    cursor: not-allowed;
+  }
+
+  .right-algn{
+    text-align: right;
+  }
+  .postn{
+    padding-left: 30px;
+    padding-right: 20px;
+    float: right;
+  }
