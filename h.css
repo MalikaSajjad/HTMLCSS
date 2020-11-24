@@ -146,7 +146,7 @@
     background-color: #E9F5FE;
   }
 
-  h3{
+  .h3-f{
     color: #3278EA;
   }
   .justify{
@@ -169,4 +169,13 @@
   }
   a:hover{
     color: white;
+  }
+  .logoz{
+    display: inline-flex;
+   
+  }
+  .logoz > div{
+    border-radius: 10px;
+    margin: 25px;
+    text-align: center;
   }

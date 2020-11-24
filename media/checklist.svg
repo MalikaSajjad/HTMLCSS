@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>checklist</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0849089552 0.0839034826 45.7821428 0.0839034826 45.7821428 45.7810945 0.0849089552 45.7810945"></polygon>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-6" transform="translate(-677.000000, -1118.000000)">
+            <g id="Group-4" transform="translate(530.000000, 1078.000000)">
+                <g id="checklist" transform="translate(147.000000, 40.000000)">
+                    <polygon id="Fill-1" fill="#4795FF" points="17.5686448 2.13930348e-05 4.27860697e-05 15.6443199 4.27860697e-05 74.001096 56.4782965 74.001096 56.4782965 2.13930348e-05"></polygon>
+                    <polygon id="Fill-2" fill="#3278EA" points="51.4311448 13.5990388 5.04719453 13.5990388 11.3906572 7.41452637 51.4311448 7.41452637"></polygon>
+                    <polygon id="Fill-3" fill="#3278EA" points="5.04725871 26.5162388 51.431209 26.5162388 51.431209 20.3317264 5.04725871 20.3317264"></polygon>
+                    <polygon id="Fill-4" fill="#3278EA" points="5.04725871 39.4337811 51.431209 39.4337811 51.431209 33.2492687 5.04725871 33.2492687"></polygon>
+                    <polygon id="Fill-5" fill="#3278EA" points="5.04725871 52.3511095 51.431209 52.3511095 51.431209 46.166597 5.04725871 46.166597"></polygon>
+                    <polygon id="Fill-6" fill="#3278EA" points="5.04725871 65.2684378 51.431209 65.2684378 51.431209 59.0839254 5.04725871 59.0839254"></polygon>
+                    <polygon id="Fill-7" fill="#66AFFF" points="17.5686448 2.13930348e-05 4.27860697e-05 15.6443199 17.5686448 15.6443199"></polygon>
+                    <g id="Group-13" transform="translate(40.004975, 40.038776)">
+                        <g id="Group-10">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-9"></g>
+                            <path d="M45.7821428,22.9325204 C45.7821428,35.5514159 35.5524214,45.7811373 22.9335259,45.7811373 C10.3146303,45.7811373 0.0849089552,35.5514159 0.0849089552,22.9325204 C0.0849089552,10.3136249 10.3146303,0.0839034826 22.9335259,0.0839034826 C35.5524214,0.0839034826 45.7821428,10.3136249 45.7821428,22.9325204" id="Fill-8" fill="#D4AAF9" mask="url(#mask-2)"></path>
+                        </g>
+                        <polygon id="Fill-11" fill="#9F6BD6" points="20.2091229 36.5901119 9.69487413 27.1876592 13.528506 22.900495 19.0434164 27.8322313 30.2745458 10.5592811 35.0963219 13.6942164"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
