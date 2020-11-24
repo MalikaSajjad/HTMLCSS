@@ -11,7 +11,10 @@
 .logo{
     display: inline-block;
 }    
-
+.logos{
+  /*display: inline-grid;*/
+  
+}
 .button {
     background-color: #49D1B1;
     border-radius: 55px;
@@ -55,7 +58,14 @@
       padding-left: 75px;
       border-radius: 10px;
   }
+  .sizej1{
+    width: 35%;
+  }
 
+  .sizej2{
+    width: 50%;
+
+  }
   .text-box{
     
     border: 3px solid #42E1BD;
@@ -80,13 +90,22 @@
     background-color: rgb(151, 218, 203);
     border: none;
   }
+  .btn-lgq{
+    border-radius: 50px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(151, 218, 203);
+    border: none;
+  }
+
   .btn-lg:hover{
 
     background-color: #49D1B1;
     border: none;
     cursor: not-allowed;
   }
-
+  
   .right-algn{
     text-align: right;
   }
@@ -94,4 +113,60 @@
     padding-left: 30px;
     padding-right: 20px;
     float: right;
+  }
+  .postn-r{
+    float: right;
+  }
+  .postn-l{
+    float: left;
+  }
+
+  ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #D4AAF9; /* Change the color */
+    font-weight: bolder; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  .div-margin{
+    margin-top: 250px;
+  }
+
+  .grid-cont{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  }
+  .bg-light-s{
+    background-color: #E9F5FE;
+  }
+
+  h3{
+    color: #3278EA;
+  }
+  .justify{
+    text-align: justify;
+  
+  }
+
+  .footer{
+    background-color: #5C5F6D;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+  .footer-formt{
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+    color: white;
   }
