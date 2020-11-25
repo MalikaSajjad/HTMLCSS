@@ -57,17 +57,26 @@
   .sizej{
       padding-top: 25px;
       padding-bottom: 25px;
-      padding-right: 75px;
-      padding-left: 75px;
+      padding-right: 0px;
+      padding-left: 0px;
       border-radius: 10px;
+      margin-top: 28px;
   }
   .sizej1{
-    width: 35%%;
+    margin-right: 100px;
+    padding-left: 30px;
   }
 
   .sizej2{
-    width: 50%;
+    margin-top: 187px;
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+    font-size: 20;
 
+  }
+  .ul-pad{
+    padding-left: 20px;
   }
   .text-box{
     
@@ -81,6 +90,7 @@
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 0px;
     /*width: 100%;*/
   }
   .bglogopad{
@@ -186,4 +196,17 @@
     border-radius: 10px;
     margin: 25px;
     text-align: center;
+  }
+
+  .freq-pad{
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+.carou-pad{
+  padding-left: 350px;
+  padding-right: 350px;
+
+}
+  .jpadd{
+
   }

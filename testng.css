@@ -7,3 +7,14 @@
     font-family: sans-serif;
 
 }
+
+.gridsab{
+    background-color: teal;
+    padding: 500px;
+    text-align: center;
+    color: white;
+}
+
+.algn-end{
+    align-items: flex-end;
+}
