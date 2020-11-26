@@ -18,3 +18,23 @@
 .algn-end{
     align-items: flex-end;
 }
+
+.b{
+    border-radius: 50%;
+    border: 20px solid #4795FF;
+}
+.carousal-c{
+    color: black;
+}
+#myCarousel {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .carousel-control.left {
+    margin-left: -25px;
+  }
+  
+  .carousel-control.right {
+    margin-right: -25px;
+  }
