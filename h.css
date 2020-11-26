@@ -224,4 +224,10 @@
     padding-right: 400px;
     
   }
-  
+  .carousel-cell {
+    width: 100%;
+  }
+  .b{
+    border-radius: 50%;
+    border: 12px solid #4795FF;
+}

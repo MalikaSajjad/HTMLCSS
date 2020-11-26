@@ -38,3 +38,14 @@
   .carousel-control.right {
     margin-right: -25px;
   }
+  .w-10{
+
+  }
+  .d-block.w-10{
+      width: 2000;
+      height: 2000;
+  }
+
+  .carousel-cell {
+    width: 100%;
+  }
