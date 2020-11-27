@@ -1,3 +1,20 @@
+@font-face{
+  font-family: marselis;
+  src: url("fonts/Marselis-OT-Bold-4d77dcc17832630f53db9f0692c485c4.woff");
+}
+@font-face{
+  font-family: san-fran;
+  src: url("fonts/SF-Pro-Display-Light-4f942d7a125f4f523004e147239b5a45.woff");
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: marselis;
+  color: #5C5F6D;
+}
+p, q, cite, li{
+  color: #5C5F6D;
+  font-family: san-fran;
+  font-size: 1.1em;
+}
 *{
     margin: 0;
     padding: 0;
