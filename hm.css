@@ -8,9 +8,9 @@
     }
     .foo{
         justify-content: center;
-        
-        
-        font-size: 2em;
+        align-content: center;
+        text-align: center;
+        font-size: 1.5em;
     }
     .fonts{
         font-size: 1rem;
