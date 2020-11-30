@@ -1,0 +1,11 @@
+@media all and (max-width: 1000px){
+    .displaynone{
+        display: none;
+    }
+    .dis{
+        justify-content: center;
+    }
+    .foo{
+        justify-content: center;
+    }
+}

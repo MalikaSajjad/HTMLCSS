@@ -271,3 +271,9 @@ p, q, cite, li{
 .icon-phone:before {
   content: "\E901";
 }
+
+.disp{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap; 
+ }
