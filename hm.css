@@ -1,11 +1,22 @@
-@media all and (max-width: 1000px){
+@media all and (max-width: 500px){
     .displaynone{
         display: none;
     }
     .dis{
         justify-content: center;
+        font-size: 1em;
     }
     .foo{
         justify-content: center;
+        align-content: center;
+        font-size: 2em;
     }
+    .fonts{
+        font-size: 1rem;
+    }
+    p, q, cite, li{
+        color: #5C5F6D;
+        font-family: san-fran;
+        font-size: 2em;
+      }
 }
