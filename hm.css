@@ -19,4 +19,7 @@
         font-family: san-fran;
         font-size: 2em;
       }
+    .logom{
+        display: flexbox;
+      }
 }
