@@ -1,3 +1,7 @@
+@font-face{
+    font-family: Questrial;
+    src: url("fonts/QdVUSTchPBm7nuUeVf70viFluW44JQ.woff2");
+  }
 body{
     font-family: Questrial;
 }
@@ -6,4 +10,8 @@ body{
 }
 .spacing{
     
+}
+h1, h3{
+    text-align: center;
+    font-family: Questrial;
 }
