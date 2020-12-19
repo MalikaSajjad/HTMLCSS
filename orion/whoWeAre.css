@@ -9,9 +9,34 @@ body{
     text-align: center;
 }
 .spacing{
-    
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.spacing1{
+    margin-left: 200px;
+    margin-right: 200px;
 }
 h1, h3{
     text-align: center;
     font-family: Questrial;
+}
+.container{
+    margin: auto;
+    font-family: Questrial;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #E08F3A;
+    text-decoration: none;
+}
+.card{
+    
+}
+.btn{
+    color: blanchedalmond;
+}
+btn:hover{
+    color: #E08F3A;
 }
