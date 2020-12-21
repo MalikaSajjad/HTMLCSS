@@ -5,6 +5,7 @@
 body{
     font-family: Questrial;
 }
+
 .centr-algin{
     text-align: center;
 }
@@ -43,14 +44,20 @@ a:hover{
     text-align: left;
 }
 .card:hover{
-    animation-name: background-color;
-    animation-duration: 500ms;
+    animation-name: fade;
+    animation-duration: 0.1s;
 }
-@keyframes background-color {
-    100% {
-      top: 20%;
+@keyframes fade {
+    0%{
+        opacity: 0;
+       
+    }
+    100%{
+        opacity: 1;
+      
     }
   }
+  
 .button{
     background-color: white;
     border: 1px solid rgb(230, 223, 223);
