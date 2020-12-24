@@ -1,0 +1,32 @@
+#main{
+    background-color: #EEEEEE;
+    text-align: center;
+}
+#title{
+    text-align: center;
+}
+#img-div{
+    background-color: white;
+    margin: auto 15px auto 15px;
+}
+#image{
+    
+}
+#img-caption{
+
+}
+#tribute-info{
+    
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#tribute-link{
+
+}
+section{
+    display: block;
+}
+ul {
+  text-align: justify;
+  
+}
