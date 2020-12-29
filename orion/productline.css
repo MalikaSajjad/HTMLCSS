@@ -4,3 +4,53 @@
 p{
     color: #666666;
 }
+.style{
+position: absolute; width: 40px; height: 43px; 
+left: 45%;
+top: 40%;
+
+}
+span{
+    color: #F1B794;
+}
+.content-box{
+    position: absolute;
+    left: 10px;
+    bottom:10px;
+    max-width: 235px;
+    width: 100%;
+    background-color: #E08F3A;
+    color: white;
+    padding: 15px;
+    visibility: hidden;
+}
+h5{
+    font-size: 16px;
+}
+.fa-plus{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    visibility: hidden;
+    
+}
+.item:hover .fa-plus{
+    visibility: visible;
+}
+.full-layer{
+    position: absolute;
+    background-color: #444C62;
+    height: 0%;
+    width: 0%;
+    opacity: 0.5;
+}
+.item:hover .full-layer{
+    position: absolute;
+    background-color: #444C62;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.item:hover .content-box{
+    visibility: visible;
+}

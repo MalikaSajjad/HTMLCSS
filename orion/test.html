@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Owl carousel + magnific-popup</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css'>
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css'>
+
+
+
+</head>
+
+<body>
+
+    <div>
+        <i>&</i>
+    </div>
+
+    <p>http://dimsemenov.com/plugins/magnific-popup/</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="content_photo owl-carousel owl-theme">
+                    <div class="item"><a class="thumbnail" href="http://lorempixel.com/600/400/food/5"
+                            title="Test caption 1"><img src="http://lorempixel.com/600/400/food/5" /></a></div>
+                    <div class="item"><a class="thumbnail" href="http://lorempixel.com/600/400/food/3"
+                            title="Test caption 1"><img src="http://lorempixel.com/600/400/food/3" /></a></div>
+                    <div class="item"><a class="thumbnail" href="http://lorempixel.com/600/400/food/8"
+                            title="Test caption 1"><img src="http://lorempixel.com/600/400/food/1" /></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js'></script>
+
+
+
+    <script src="js/index.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".content_photo").owlCarousel({
+                autoPlay: true,
+                items: 3,
+                margin: 10,
+                loop: false,
+                dots: false,
+                nav: true,
+                responsive: {
+                    // breakpoint from 0 up
+                    0: {
+                        items: 1
+                    },
+                    // breakpoint from 480 up
+                    768: {
+                        items: 2
+                    },
+                    // breakpoint from 480 up
+                    1024: {
+                        items: 3
+                    },
+                    // breakpoint from 768 up
+                    1440: {
+                        items: 3
+                    }
+                },
+                animateOut: 'fadeOut'
+            });
+
+        });
+
+        // This will create a single gallery from all elements that have class "gallery-item"
+        $('.thumbnail').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            },
+        });
+    </script>
+
+
+
+</body>
+
+</html>

@@ -7,9 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="productline.css">
-
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" />
@@ -17,6 +18,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="productline.css">
 </head>
 
 <body>
@@ -31,27 +34,66 @@
     </div>
     <br>
     <div class="owl-carousel owl-theme" style="margin-left: 30px;">
+
         <div class="item">
+            <div class="full-layer"></div>
             <img src="media/abs.jpg" alt="abs">
+            <a href="media/abs.jpg" class="thumbnail style"> <i class="fa fa-plus"></i></a>
+
+            <div class="content-box">
+                <span>Thermoplastic</span>
+                <h5>Acrylonitrile-butadiene-styrene (ABS) Sheet</h5>
+            </div>
+
         </div>
         <div class="item">
+            <div class="full-layer"></div>
             <img src="media/low-gloss.jpg" alt="low">
+            <a href="media/low-gloss.jpg" class="thumbnail style"> <i class="fa fa-plus"></i></a>
+
+            <div class="content-box">
+                <span>Resin co-extruded</span>
+                <h5>Low Gloss Cap ABS Sheet</h5>
+            </div>
+
         </div>
         <div class="item">
-            <img src="media/asa.jpg" alt="asa">
+            <div class="full-layer"></div>
+            <img src="media/asa.jpg" alt="asa" class="gallery-item">
+            <a href="media/asa.jpg" class="thumbnail style"> <i class="fa fa-plus"></i></a>
+
+            <div class="content-box">
+                <span>Polymer co-extruded</span>
+                <h5>ASA Weatherable Cap ABS Sheet</h5>
+            </div>
+
         </div>
         <div class="item">
+            <div class="full-layer"></div>
             <img src="media/acrylic.jpg" alt="acrylic">
+            <a href="media/acrylic.jpg" class="thumbnail style"> <i class="fa fa-plus"></i></a>
+
+            <div class="content-box">
+                <span>Co-extruded sheet</span>
+                <h5>Acrylic Cap ABS Sheet</h5>
+            </div>
         </div>
 
 
     </div>
 
+
+
+
+
+
+
+
     <br><br>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous"></script>
@@ -75,8 +117,19 @@
                 1000: {
                     items: 4
                 }
-            }
+            },
+
         })
+
+
+        // This will create a single gallery from all elements that have class "gallery-item"
+        $('.thumbnail').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            },
+        });
+
     </script>
 </body>
 
