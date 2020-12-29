@@ -10,6 +10,11 @@ left: 45%;
 top: 40%;
 
 }
+.odd-item{
+    
+    height: 80%;
+}
+
 span{
     color: #F1B794;
 }

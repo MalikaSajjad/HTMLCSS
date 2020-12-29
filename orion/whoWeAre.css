@@ -24,10 +24,7 @@ h1, h3{
 }
 .container{
     margin: auto;
-    
 }
-
-
 .margin{
     margin-left: 40px;
     margin-right: 40px;
@@ -198,4 +195,7 @@ a:hover{
     background-color: #E08F3B;
     border: none;
     
+}
+.left-layer:hover a{
+    color: aqua;
 }
