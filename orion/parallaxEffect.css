@@ -1,0 +1,56 @@
+.background{
+    padding: 50px; 
+    background-repeat: no-repeat; 
+    width:100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.inner-box{
+    background-color: #E08F3A;
+    color: white;
+    text-align: justify;
+    width: 530px;
+    padding: 10px 85px 20px 85px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: -100px;
+}
+h2{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+    color: #ffe4df;
+}
+p{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.fa-phone{
+    color: #E08F3A;
+   font-size: 24px;
+}
+.phone-position a{
+    padding: 25px;
+   
+    border-radius: 50%;
+}
+.phone-position{
+    position: relative;
+    left: -120px;
+    bottom: -300px;
+   
+}
