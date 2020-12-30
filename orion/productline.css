@@ -35,6 +35,7 @@ h5{
 .fa-plus{
     color: white;
     font-size: 50px;
+    font-weight: lighter;
     text-decoration: none;
     visibility: hidden;
     
@@ -44,18 +45,39 @@ h5{
 }
 .full-layer{
     position: absolute;
-    background-color: #444C62;
+    background-color: #464E63;
     height: 0%;
     width: 0%;
     opacity: 0.5;
 }
+
 .item:hover .full-layer{
-    position: absolute;
-    background-color: #444C62;
+    
     height: 100%;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.8;
+    transform: scale(1.01);
 }
 .item:hover .content-box{
     visibility: visible;
 }
+  
+
+a{
+    color: white;
+    font-size: 75px;
+    font-weight: lighter;
+    visibility: hidden;
+}
+.item:hover a{
+    position: absolute; width: 40px; height: 43px; 
+    left: 40%;
+    top: 25%;
+    text-decoration: none;
+    color: white;
+    font-size: 75px;
+    font-weight: lighter;
+    visibility: visible;
+    
+}
+
