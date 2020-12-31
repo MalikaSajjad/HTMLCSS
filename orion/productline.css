@@ -65,14 +65,10 @@ h5{
     width: 0%;
     opacity: 0.5;
 }
-
-.item:hover .full-layer{
-    
-    height: 100%;
-    width: 100%;
-    opacity: 0.8;
+.item:hover{
     transform: scale(1.01);
 }
+
 .item:hover .content-box{
     visibility: visible;
 }
@@ -96,3 +92,10 @@ a{
     
 }
 
+.item:hover .full-layer{
+    
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    /*transform: scale(1.01);*/
+}
