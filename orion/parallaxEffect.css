@@ -36,13 +36,15 @@ a{
     padding: 12px 40px 12px 40px;
     border-radius: 30px;
     color: black;
-    
-    
-}
+    top:0px;
+    transition: top linear 600ms;
+}  
+
 a:hover{
+    position: relative;
     text-decoration: none;
     color: black;
-
+    top: -4px;
 }
 .fa-phone{
     color: #E08F3A;
@@ -56,6 +58,11 @@ a:hover{
     animation-name: vibrator;
     animation-duration: 5s;
     animation-iteration-count: infinite;*/
+}
+.phone-position a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
 }
 @keyframes vibrator{
     0%{
