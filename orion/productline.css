@@ -43,6 +43,8 @@ span{
     color: white;
     padding: 15px;
     visibility: hidden;
+    transform: scale(0);
+    transition: transform 500ms ease;
 }
 h5{
     font-size: 16px;
@@ -71,6 +73,7 @@ h5{
 
 .item:hover .content-box{
     visibility: visible;
+    transform: scale(1);
 }
   
 
@@ -99,3 +102,4 @@ a{
     opacity: 0.8;
     /*transform: scale(1.01);*/
 }
+

@@ -28,10 +28,10 @@ h3{
 p{
     color: #5d5d66;
 }
-.card:hover a{
+.card:hover a:hover{
     color: #E19444;
 }
-.card:hover .button{
+.card:hover .button:hover{
     background-color: #E19444;
     color: white;
 }
@@ -64,7 +64,7 @@ p{
     width: 50%;
     height: 0%;
     display: block;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
    
     transition: all 600ms ease;
 }
@@ -76,7 +76,7 @@ p{
     width: 50%;
     height: 0%;
     display: block;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
   
     transition: all 600ms ease;
 }
@@ -99,7 +99,7 @@ p{
     width: 50%;
     height: 0%;
     display: block;
-    background-color: #f4f4f4;
+    /*background-color: transparent;*/
    
     transition: all 600ms ease;
 }
@@ -111,7 +111,7 @@ p{
     width: 50%;
     height: 0%;
     display: block;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
   
     transition: all 600ms ease;
 }
