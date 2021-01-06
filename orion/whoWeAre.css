@@ -28,6 +28,13 @@ h3{
 p{
     color: #5d5d66;
 }
+.card:hover a{
+    color: #E19444;
+}
+.card:hover .button{
+    background-color: #E19444;
+    color: white;
+}
 .col-md-8 h3{
     font-size: 24px;
     font-weight: normal;
@@ -82,6 +89,7 @@ p{
     width: 50%;
     height: 100%;
     display: block;
+    
 }
 .right-layer:before {
     position: absolute;
@@ -138,7 +146,7 @@ p{
     padding: 00px 00px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
-.card:hover .left-layer:before{
+/*.card:hover .left-layer:before{
     height: 100%;
     opacity: 0.2;
     
@@ -154,13 +162,13 @@ p{
 .card:hover .right-layer:after{
     height: 100%;
     opacity: 0.2;
-}
+}*/
 
 a{
     color: black;
     text-decoration: none;
 }
-a:hover{
+.card a:hover{
     color: #E08F3A;
     text-decoration: none;
 }
@@ -201,12 +209,31 @@ a:hover{
     padding-bottom: 10px;
 }
 
-.button:hover {
-    color: white;
-    background-color: #E08F3B;
+.button:hover{
+    color: white ! important;
+    background-color: #E08F3A;
+    color: red;
     border: none;
     
 }
-.left-layer:hover a{
+
+.card-body:hover .left-layer:before{
+    height: 100%;
+    background-color: rgb(175,175,175,0.2);
+    
+}
+.card-body:hover .left-layer:after{
+    height: 100%;
+    background-color: rgb(175,175,175,0.2);
+}
+.card-body:hover .right-layer:before{
+    height: 100%;
+    background-color: rgb(175,175,175,0.2);
+}
+.card-body:hover .right-layer:after{
+    height: 100%;
+    background-color: rgb(175,175,175,0.2);
+}
+/*.left-layer:hover a{
     color: aqua;
 }
