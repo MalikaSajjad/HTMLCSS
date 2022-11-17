@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo rm -rf /home/sncfeedback/afeedback
+sudo rm -rf /home/malikasajjad/HTMLCSS

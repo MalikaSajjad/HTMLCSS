@@ -9,12 +9,6 @@ permissions:
   - object: /home/malikasajjad/HTMLCSS/
     owner: malikasajjad
     group: malikasajjad   
-# hooks:
-#   ApplicationStop:
-#     - location: /scripts/stop-services.sh
-#   BeforeInstall:
-#     - location: /scripts/remove-existing-directory.sh
-#   AfterInstall:
-#     - location: /scripts/python-command.sh
-#   ApplicationStart:
-#     - location: /scripts/start-services.sh
+hooks:
+  BeforeInstall:
+    - location: /scripts/remove-existing-directory.sh
