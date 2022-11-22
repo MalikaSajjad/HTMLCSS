@@ -9,6 +9,3 @@ permissions:
   - object: /home/malikasajjad/HTMLCSS/
     owner: malikasajjad
     group: malikasajjad   
-#hooks:
-#  BeforeInstall:
-#    - location: /scripts/remove-existing-directory.sh
