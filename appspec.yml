@@ -4,7 +4,11 @@ os: linux
 files:
   - source: /
     destination: /home/malikasajjad/HTMLCSS/
+    overwrite: true
 permissions:
   - object: /home/malikasajjad/HTMLCSS/
     owner: malikasajjad
     group: malikasajjad   
+#hooks:
+#  BeforeInstall:
+#    - location: /scripts/remove-existing-directory.sh
