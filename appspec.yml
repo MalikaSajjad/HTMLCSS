@@ -4,7 +4,7 @@ os: linux
 files:
   - source: /
     destination: /home/malikasajjad/HTMLCSS/
-    overwrite: true
+file_exists_behavior: OVERWRITE
 permissions:
   - object: /home/malikasajjad/HTMLCSS/
     owner: malikasajjad
